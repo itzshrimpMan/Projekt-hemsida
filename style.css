@@ -10,3 +10,8 @@ header {
 body {
   margin: 0px;
 }
+
+button {
+  display: flex;
+  text-align: center;
+}
