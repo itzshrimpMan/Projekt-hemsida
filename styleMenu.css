@@ -16,7 +16,7 @@ a {
   margin: 20px;
 }
 
-div {
+.header {
   display: flex;
   color: white;
   justify-content: center;
@@ -24,4 +24,45 @@ div {
   margin: auto;
   width: 50%;
   font-size: 200%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-left: 18%;
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+
+a:hover {
+  color: gray;
+}
+
+title {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 17px;
+  height: 10%;
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 18%;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  width: 60%;
+  margin-left: 18%;
+}
+
+.fooditems {
+  width: 40%;
+  margin-left: 28%;
+  border-color: goldenrod;
+  border-style: solid;
+  border-bottom-color: white;
+  border-right-color: white;
 }

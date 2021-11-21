@@ -120,3 +120,10 @@ title {
   display: flex;
   margin-left: 2%;
 }
+
+.adress {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  font-size: 18px;
+}
