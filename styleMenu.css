@@ -8,6 +8,7 @@ header {
 }
 body {
   margin: 0px;
+  background-image: url("table.jpg");
 }
 
 a {
@@ -31,8 +32,10 @@ a {
   justify-content: center;
   width: 60%;
   margin-left: 18%;
-  font-size: 20px;
+  font-size: 27px;
   margin-bottom: 2%;
+  margin-top: 2%;
+  color: white;
 }
 
 a:hover {
@@ -43,7 +46,7 @@ title {
   display: flex;
   justify-content: center;
   color: black;
-  font-size: 17px;
+  font-size: 23px;
   height: 10%;
   width: 60%;
   margin-top: 2%;
@@ -53,7 +56,7 @@ title {
 p {
   display: flex;
   justify-content: center;
-  font-size: 14px;
+  font-size: 17px;
   width: 60%;
   margin-left: 18%;
 }
@@ -61,8 +64,21 @@ p {
 .fooditems {
   width: 40%;
   margin-left: 28%;
+  background-color: white;
+  border-width: 5px;
   border-color: goldenrod;
   border-style: solid;
   border-bottom-color: white;
   border-right-color: white;
+}
+
+.line {
+  height: 2px;
+  color: black;
+  background-color: black;
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
